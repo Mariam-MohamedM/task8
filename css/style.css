@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box ;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    background-color: rgb(219, 219, 217);
+    overflow: auto;
+}
+.content{
+    border: 2px solid rgb(120, 171, 169);
+    height: 400px;
+    width: 30%;
+    float: left;
+    margin:2%  1%   30px  2%;
+    font-size: 21px;
+    word-spacing: 4px;
+    line-height: 30px;
+    transition: 2s;
+}
+.diff{
+    margin-right: 0px;
+    margin-left: 2%;
+}
+.content:hover {
+transform: scale(1.1,1.1);
+}
+.image{
+    height:75%;
+}
+.div2{
+    background-image: url(../images/fridge.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.div4{
+    background-image: url(../images/tv.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.div6{
+    background-image: url(../images/iron.jpg);
+    background-size: cover;
+}
+.div7{
+    background-image: url(../images/dishWasher.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.div9{
+    background-image: url(../images/air\ conditioner.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.content p{
+    padding-left: 20px;
+    font-size: 22px;
+    margin-top: 5px;
+}
+.container #output{
+    height:auto;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    border: 3px solid black;
+    margin-top: 1400px;
+    margin-bottom: 30px;
+}
+.container #output h2{
+    margin-bottom: 10px;
+    color: rgb(43, 109, 111);
+}
+#btn{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 130px;
+    background-color: rgb(136, 189, 176);
+    color: white;
+    border-radius:10px ;
+}
+.final{
+    height:auto;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    border: 3px solid rgb(211, 209, 209);
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.subtitle{
+    font-size:30px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 20px;
+}
+.title{
+    padding-left: 20px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 45px;
+}
+.underline{
+    border: 2px solid rgb(92, 150, 126);
+    width: 150px;
+    margin-left: 510px;
+}
